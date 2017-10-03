@@ -160,11 +160,9 @@ alias gs='git status'
 alias wtf='git diff'
 alias add='git add .'
 alias gbr='git branch -a'
-alias allupd='git submodule update --init --recursive'
+alias allgupd='git submodule update --init --recursive'
 alias iddqd='git fetch origin && git reset --hard origin/master'
-alias tostaging='git fetch origin && git reset --hard origin/staging'
-alias tocwp='git fetch origin && git reset --hard origin/circwatch'
-alias upd="git submodule foreach 'git checkout master && git pull origin master'"
+alias updsub="git submodule foreach 'git checkout master && git pull origin master'"
 
 alias timestamp="date +%s"
 
