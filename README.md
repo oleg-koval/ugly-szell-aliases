@@ -1,5 +1,5 @@
 # ugly-szell-aliases
-These are just a few of my favorite aliases for zshell.
+
 Simply put these into your ~/.zshrc file.
 Added Prezto support
 
@@ -165,12 +165,6 @@ alias iddqd='git fetch origin && git reset --hard origin/master'
 alias updsub="git submodule foreach 'git checkout master && git pull origin master'"
 
 alias timestamp="date +%s"
-
-#
-# NPM
-#
-alias cov='npm run test:coverage'
-alias tost='npm run test'
 
 #
 # Docker
